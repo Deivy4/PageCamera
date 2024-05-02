@@ -1,8 +1,7 @@
 import { Button, Input, Textarea } from "@material-tailwind/react";
 
-
 function FormContact () {
-    return <form className="min-w-96 w-2/4 bg-indigo-600 bg-opacity-70 flex flex-col items-center">
+    return <form className="min-w-96 rounded-lg w-2/4 bg-indigo-600 bg-opacity-70 flex flex-col items-center">
         <h2 className="mt-2">Contáctanos</h2>
          <div className="w-11/12 mt-2">
             <Input
@@ -37,16 +36,17 @@ function FormContact () {
                 containerProps={{ className: "min-w-48" }}
                 />
          </div>
-         <div className="div-text-area w-11/12 mt-6">
+         <div className="w-11/12 mt-6">
             <Textarea
-            className="text-white-area"
+            className="text-white placeholder-white" 
              color="gray" rows={8} size="lg" label="Información adicional"
             />
          </div>
-         <Button onClick={enviarInformacion} className="mt-8">Enviar información</Button> 
+         <Button className="mt-6 mb-4" onClick={enviarInformacion} >Enviar información</Button> 
     </form>
 }
-function enviarInformacion (){
-    console.log("clicket")
+function enviarInformacion (e){
+    console.log('click')
+
 }
 export { FormContact }
