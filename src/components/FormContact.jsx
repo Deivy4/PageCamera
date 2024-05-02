@@ -39,7 +39,7 @@ function FormContact () {
          <div className="w-11/12 mt-6">
             <Textarea
             className="text-white placeholder-white" 
-             color="gray" rows={8} size="lg" label="Información adicional"
+             rows={8} size="lg" label="Información adicional"
             />
          </div>
          <Button className="mt-6 mb-4" onClick={enviarInformacion} >Enviar información</Button> 
