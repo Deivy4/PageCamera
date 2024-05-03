@@ -2,7 +2,7 @@ import { Button, Input, Textarea } from "@material-tailwind/react";
 
 function FormContact () {
     return <form className="min-w-96 rounded-lg w-2/4 bg-indigo-600 bg-opacity-70 flex flex-col items-center">
-        <h2 className="mt-2">Contáctanos</h2>
+        <h2 className="mt-2">Contáctanoss</h2>
          <div className="w-11/12 mt-2">
             <Input
                 type="text"
