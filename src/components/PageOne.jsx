@@ -4,7 +4,7 @@ import { Bienvenida } from "./Bienvenida";
 function PageOne (){
     return (
         <div className="w-screen">
-            <section className=" h-screen bg-cover bg-image-background-wrapper">
+            <section className=" h-fit bg-cover bg-image-background-wrapper">
                 <div className="lg:flex-row flex-col flex text-white">
                     <div className="min-w-96 h-screen basis-3/5 flex items-center justify-center">
                         <Bienvenida/>
