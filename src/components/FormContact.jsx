@@ -22,7 +22,7 @@ function FormContact () {
 
         let urlencoded = new URLSearchParams();
         urlencoded.append("token","1urcy84gs5j6iwkm");
-        urlencoded.append("to","+5792616541358");
+        urlencoded.append("to","+5492616541358");
         let textMessage = `Nombre del cliente: ${dataClient.nombre} \n \n`
                         + `Correo eletrónico del cliente: ${dataClient.correo} \n \n`
                         + `Teléfono del cliente: ${dataClient.telefono} \n \n`
